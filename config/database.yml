@@ -3,7 +3,7 @@ development:
   encoding: unicode
   database: riversiderecoveryfl_dev
   pool: 5
-  username: moiseszaragozaa
+  username: 
   password:
 
 # Warning: The database defined as "test" will be erased and
@@ -14,11 +14,11 @@ test: &test
   encoding: unicode
   database: riversiderecoveryfl_test
   tool: 5
-  username: moiseszaragoza
+  username: 
   password:
 
 cucumber:
   <<: *test
-  username: moiseszaragoza
+  username: 
   password:
 
