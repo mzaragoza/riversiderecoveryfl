@@ -4,11 +4,11 @@
   =render 'about'
 %header#our_program.our_program
   =render 'our_program'
-%header#requirements.requirements
-  =render 'requirements'
-%header#riverside_living.riverside_living
+%header#riverside_living
   =render 'riverside_living'
-%header#mission_vison.mission_vison
+%header#requirements.riverside_living
+  =render 'requirements'
+-#%header#mission_vison.mission_vison
   =render 'mission_vison'
 
 -#
@@ -133,7 +133,7 @@
       .col-lg-10.col-lg-offset-1.text-center
         %h4
           %strong River Side Recovery of Florida
-
+        = image_tag 'logo.png'
         %p
           761 Hummingbird Way
           %br
@@ -145,6 +145,8 @@
           %li
             %i.fa.fa-envelope-o.fa-fw
             = mail_to 'Kyle@riversiderecoveryfl.com'
+        = image_tag 'farr_logo.png'
+        = image_tag 'narr_logo.png'
         -#%br
         -#%ul.list-inline
           %li
