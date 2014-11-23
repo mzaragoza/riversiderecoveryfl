@@ -147,16 +147,18 @@
             = mail_to 'Kyle@riversiderecoveryfl.com'
         = image_tag 'farr_logo.png'
         = image_tag 'narr_logo.png'
-        -#%br
-        -#%ul.list-inline
-          %li
-            %a{:href => "#"}
-              %i.fa.fa-facebook.fa-fw.fa-3x
-          %li
-            %a{:href => "#"}
-              %i.fa.fa-twitter.fa-fw.fa-3x
-          %li
-            %a{:href => "#"}
-              %i.fa.fa-dribbble.fa-fw.fa-3x
+        = image_tag 'wallabycare_logo.png'
+    .col-xs-12
+      %br
+      %br
+    .col-xs-5
+    .col-xs-1
+      .center
+        = link_to 'Contact', "https://www.wallabycare.com/facilities/18/facility_contacts/new", target: '_blank', class: 'btn btn-primary btn-lg'
+    .col-xs-1
+      .center
+        = link_to 'Apply Now', "https://www.wallabycare.com/facilities/18/registrations/new", target: '_blank', class: 'btn btn-primary btn-lg'
+    .col-xs-12
+      .col-lg-10.col-lg-offset-1.text-center
         %hr.small/
         %p.text-muted Copyright © River Side Recovery of Florida #{ Date.today.strftime('%Y') }
